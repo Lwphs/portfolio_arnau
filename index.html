@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navigator" class="list foreground reveal-nav">
+        <a href="#about-me-hero" class="button">
+          <li id="about-me-button" class="text ">Me</li>
+        </a>
+        <a href="#toolkit" class="button">
+          <li id="toolkit-button" class="text">Toolkit</li>
+        </a>
+        <a href="#proyectos" class="button">
+          <li id="projects-button" class="text">Prjcts</li>
+        </a>
+        <a href="#experiencia" class="button">
+          <li id="experience-button" class="text">Exp</li>
+        </a>
+        <a href="#footer" class="button">
+          <li id="footer-button" class="text">Contacts</li>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero about-me" id="about-me-hero">
+        <div id="hero-text">
+          <div id="title" class="reveal">
+            <h1 class="text">Arnau García</h1>
+            <h3 class="text">Backend Developer</h3>
+          </div>
+          <p class="text parrafo reveal">
+            Programador en prácticas en SIGMA y estudiante de Desarrollo de
+            Aplicaciones Multiplataforma en La Salle. Enfocado en mejorar mis
+            habilidades en logística, desarrollo backend y comprensión de la
+            maquinaria para optimización de procesos y desarrollo de código
+            funcional y eficiente.
+          </p>
+        </div>
+      </div>
+
+      <div class="carousel" id="toolkit">
+        <h2 class="titol">Skillset</h2>
+        <ul id="skills" class="list">
+          <li class="reveal">
+            <img src="/assets/skills/java.svg" alt="Java" />
+          </li>
+          <li class="reveal">
+            <img src="/assets/skills/Spring_Boot.svg" alt="Spring Boot" />
+          </li>
+          <li class="reveal">
+            <img src="/assets/skills/html5logo.svg" alt="HTML" />
+          </li>
+          <li class="reveal">
+            <img src="/assets/skills/CSSlogo.svg" alt="CSS" />
+          </li>
+          <li class="reveal">
+            <img src="/assets/skills/js.svg" alt="JavaScript" />
+          </li>
+          <li class="reveal">
+            <img src="/assets/skills/angularsvg.svg" alt="Linux" />
+          </li>
+          <li class="reveal">
+            <img src="/assets/skills/oracle.svg" alt="Photoshop" />
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero projectes reveal" id="proyectos">
+        <h2 class="titol">Projects</h2>
+        <div id="projects">
+          <section
+            class="card"
+            style="--bg: url(/assets/images/SsuperEleven.png)"
+          >
+            <a
+              href="https://github.com/LaSalleGracia-Programacio/24-25-pr-ctica-i-equipo-4"
+              target="_blank"
+            >
+              <h3>SuperEleven</h3>
+              <p>Proyecto de escuela, juego de fútbol por CLI.</p>
+            </a>
+          </section>
+
+          <section class="card" style="--bg: url(/assets/images/CV.png)">
+            <a href="https://my-portfolio-ruddy-pi.vercel.app/" target="_blank">
+              <h3>Portfolio</h3>
+              <p>Mi anterior portfolio, actualmente desfasado.</p>
+            </a>
+          </section>
+
+          <section class="card" style="--bg: url(/assets/images/Library.png)">
+            <a
+              href="https://github.com/Lwphs/League_of_Legends_Page"
+              target="_blank"
+            >
+              <h3>League of Legends</h3>
+              <p>Rediseño de la página web para League of Legends.</p>
+            </a>
+          </section>
+        </div>
+      </div>
+
+      <article class="experience hero" id="experiencia">
+        <h2 class="titleExp reveal">Experiencia</h2>
+        <section class="principalSection container">
+          <ol class="experienceList">
+            <li class="experienceItemList">
+              <div class="decorativeCircle" class="reveal"></div>
+              <h3 class="reveal">
+                Asistente Administrativo | Hospital Universitario Vall d'Hebron
+              </h3>
+              <p class="reveal"><span>06/2019 - 08/2024 | Barcelona</span></p>
+              <ul>
+                <li class="reveal">
+                  Gestión logística y atención al paciente.
+                </li>
+                <li class="reveal">
+                  Colaboración y trabajo en equipo con diversos servicios
+                  médicos y hospitales.
+                </li>
+                <li class="reveal">
+                  Mantenimiento de equipos informáticos y médicos.
+                </li>
+              </ul>
+            </li>
+
+            <li class="experienceItemList">
+              <div class="decorativeCircle"></div>
+              <h3 class="reveal">Full Stack Developer | SIGMAAIE</h3>
+              <p class="reveal">
+                <span>06/2025 - Actualidad | Sant Cugat del Vallès</span>
+              </p>
+              <ul>
+                <li class="reveal">
+                  Creación de soluciones tecnológicas web y backend.
+                </li>
+                <li class="reveal">
+                  Producción de código limpio, sostenible y escalable.
+                </li>
+                <li class="reveal">
+                  Uso de tecnologías como Java, Spring Boot, HTML, CSS, Angular
+                  y JS/TS.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </main>
+
+    <footer id="footer">
+      <h2 class="reveal">Contactos</h2>
+      <div>
+        <ul class="contacts list">
+          <li class="reveal">
+            <a href="mailto:arnau.garcia.work@gmail.com"
+              ><img src="/assets/email.svg" alt="email"
+            /></a>
+          </li>
+          <li class="reveal">
+            <a href="https://github.com/Lwphs" target="_blank"
+              ><img src="/assets/gitlogo.svg" alt="github"
+            /></a>
+          </li>
+          <li class="reveal">
+            <a
+              href="https://www.linkedin.com/in/arnau-garc%C3%ADa-developer/"
+              target="_blank"
+              ><img src="/assets/linkedin.svg" alt="linkedin"
+            /></a>
+          </li>
+          <li id="cv" class="reveal">
+            <a href="assets/CV ArnauG.pdf" target="_blank"
+              ><img src="/assets/cvlogo.svg" alt="CV"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div id="container" class="hero">
+      <div class="tile"></div>
+    </div>
+  </body>
+</html>
